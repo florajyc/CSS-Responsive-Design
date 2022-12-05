@@ -1,0 +1,135 @@
+html{
+    background-color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+}
+
+li, h2, nav{
+    display: inline;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 2em;
+}
+
+article{
+    display: block;
+}
+
+#enjoy-your-camping-time{
+    padding: 16px;
+    text-align: center;
+    color: white;
+
+    background-image: url("https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: top;
+    background-size: cover;
+    filter: brightness(0.9);
+}
+
+#enjoy-your-camping-time h1{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+#enjoy-your-camping-time p{
+    text-shadow: -2px -2px 0 black;
+}
+
+#enjoy-your-camping-time button{
+    background-color: #333333;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#about-yurucamp{
+    margin: 50px 20px;
+    margin-bottom: 100px;
+    padding: 8px 16px;
+    text-align: center;
+    color:white;
+}
+
+#about-yurucamp button{
+    background-color:white;
+    color: #333333;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section{
+    height: 150px;
+    width: auto;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: small;
+}
+
+section h5{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 0px;
+}
+
+.sec1-white{
+    color: #333333;
+    background-color: white;
+}
+
+.sec2-orange{
+    color: #333333;
+    background-color: orange;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+@media screen and (max-width: 420px) {
+    header{
+        height: auto;
+        flex-direction: column;
+        padding: 2px 4px;
+    }
+
+    li, a{
+        width: 100%;
+        text-decoration: none;
+    }
+
+    li, h2, nav{
+        display: block;
+        width: 100%;
+        margin: 8px 0px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1em;
+    }
+
+}
